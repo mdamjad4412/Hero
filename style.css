@@ -1,0 +1,87 @@
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.nav-title {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  padding-left: 120px;
+}
+
+.nav-title ul {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  /* text-decoration: none;
+   */
+  list-style: none;
+}
+
+.nav-title a {
+  text-decoration: none;
+}
+
+.nav-title h1 {
+  color: #131318;
+  font-size: 36px;
+}
+
+.nav-title .Trave {
+  color: #FF5400;
+  font-size: 36px;
+}
+
+.nav-title .Home {
+  color: #FF5400;
+  font-size: 18px;
+}
+
+/* banner styles */
+.banner {
+  background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+  border-radius: 16px;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 90px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(180deg, rgba(121, 121, 236, 0.8) 0%, rgba(92, 92, 245, 0) 100%); */
+}
+
+.banner-heading h1 {
+  color: #FFF;
+  font-size: 64px;
+  margin-left: 100px;
+}
+
+.banner-heading p {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 90px;
+}
+
+
+.banner-related {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  gap: 24px;
+}
+
+.banner-related select {
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+  gap: 24px;
+  padding: 15px;
+  color: white;
+}
