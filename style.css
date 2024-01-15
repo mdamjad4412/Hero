@@ -1,20 +1,20 @@
 body {
   font-family: 'Mulish', sans-serif;
+  background-color: #FFF;
 }
 
 .nav-title {
   display: flex;
-  padding: 40px;
+  
   justify-content: space-between;
   padding-left: 120px;
 }
 
 .nav-title ul {
   display: flex;
+  padding: 40px;
   gap: 40px;
   margin-right: 40px;
-  /* text-decoration: none;
-   */
   list-style: none;
 }
 
@@ -81,7 +81,56 @@ body {
   border-radius: 8px;
   background: #FF5400;
   border: none;
-  gap: 24px;
+  margin-left: 24px;
   padding: 15px;
   color: white;
+}
+
+/* main styles */
+.section-2 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 110px;
+  margin-right: 60px;
+  gap: 30px;
+}
+
+.main-des h1 {
+  color: #131318;
+  font-size: 40px;
+}
+
+.main-des p ul {
+  color: #5A5A5D;
+  font-size: 16px;
+}
+
+.main-des,
+img {
+  margin-top: 40px;
+}
+
+/* .banner2 {
+  margin-top: 60px;
+  text-align: center;
+} */
+
+.banner-header {
+  margin-top: 50px;
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+}
+
+.title-des {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+}
+.div-images {
+  margin-left: 80px;
+  margin-right: 20px;
+  border-radius: 16px;
+  gap: 24px;
+
 }
