@@ -112,10 +112,6 @@ img {
   margin-top: 40px;
 }
 
-/* .banner2 {
-  margin-top: 60px;
-  text-align: center;
-} */
 
 .banner-header {
   margin-top: 50px;
@@ -146,6 +142,26 @@ img {
 .div-images img:hover {
   transition: 0.5s;
   box-shadow: 0px 0px 20px 15px rgba(218, 102, 123, 1);
+}
+/* about section */
+.section-about{
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+  
+}
+.section-about img{
+  height: 100%;
+  width: 50%;
+  margin-right: 60px;
+}
+.div-about h1{
+  font-size: 30px;
+  text-align: center;
+}
+.div-about p{
+  font-size: 18px;
+  margin-left: 70px;
 }
 
 .section-3 {
