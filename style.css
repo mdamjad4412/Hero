@@ -222,8 +222,8 @@ img {
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.20);
   background: rgba(41, 206, 246, 0.05);
-  width: 50%;
   margin: 24px auto;
+  width: 50%;
 }
 
 .div-last-title img {
@@ -358,13 +358,15 @@ footer {
 @media screen and (max-width:600px) {
   .nav-title,ul{
     flex-direction: column;
-    padding: 10px;
+    /* padding: 10px; */
     margin-right: auto;
   }
   .banner{
     flex-direction:column ;
-    width: 40vh;
+    width: 80%;
+    height: 100%;
     margin-left:20px ;
+    margin-right: auto;
   }
   .banner-heading h1{
     margin-left: 20px;
@@ -384,7 +386,7 @@ footer {
   }
   .section-about img{
     height: 100%;
-    width: 90%;
+    width: 50%;
   
   }
   .div-about p{
@@ -397,5 +399,16 @@ footer {
     margin-left: 0;
     width: 90%;
   }
+  .section-5{
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .div-icon h1{
+    margin-left: 20px;
+  }
+  .div-icon p{
+    margin-left: 20px;
+  }
+
   
 }
