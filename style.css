@@ -41,7 +41,7 @@ body {
 
 /* banner styles */
 .banner {
-  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
   border-radius: 16px;
   height: 80vh;
   /* width: 100%; */
@@ -129,7 +129,7 @@ img {
   font-size: 16px;
 }
 
-.div-images img{
+.div-images img {
   margin-left: 20px;
   gap: 24px;
 }
@@ -146,23 +146,27 @@ img {
   transition: 0.5s;
   box-shadow: 0px 0px 20px 15px rgba(218, 102, 123, 1);
 }
+
 /* about section */
-.section-about{
+.section-about {
   display: flex;
   gap: 24px;
   margin-top: 30px;
-  
+
 }
-.section-about img{
+
+.section-about img {
   height: 100%;
   width: 50%;
   margin-right: 60px;
 }
-.div-about h1{
+
+.div-about h1 {
   font-size: 30px;
   text-align: center;
 }
-.div-about p{
+
+.div-about p {
   font-size: 18px;
   margin-left: 70px;
 }
@@ -208,6 +212,14 @@ img {
 .div-icon img {
   margin-top: 32px;
   margin-left: 32px;
+}
+
+.div-icon2 {
+
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+
 }
 
 .div-icon h1 {
@@ -290,7 +302,7 @@ img {
   padding: 15px;
   margin-top: 16px;
   margin-left: 40px;
-  width: 80%;
+  width: 70%;
 
 
 }
@@ -361,70 +373,88 @@ footer {
 
 /* Responsive medie */
 @media screen and (max-width:600px) {
-  .nav-title,ul{
+
+  .nav-title,
+  ul {
     flex-direction: column;
     /* padding: 10px; */
     margin-right: auto;
   }
-  .banner{
-    flex-direction:column ;
+
+  .banner {
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    margin-left:20px ;
+    margin-left: 20px;
   }
-  .banner-heading h1{
+
+  .banner-heading h1 {
     margin-left: 20px;
     font-size: 30px;
   }
-  .banner-heading p{
+
+  .banner-heading p {
     margin-left: 20px;
   }
-  .banner-related{
+
+  .banner-related {
     margin-left: 20px;
     margin-top: 20px;
 
   }
-  .section-2,.section-about{
+
+  .section-2,
+  .section-about {
     flex-direction: column;
     margin-left: 20px;
   }
-  .section-about img{
+
+  .section-about img {
     height: 100%;
-    width: 100%;
-  
+    width: 80%;
+
   }
-  .div-about p{
+
+  .div-about p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .div-images {
     margin-left: 20px;
   }
-  .div-images{
-    margin-left: 20px;
-  }
-  .div-images img{
+
+  .div-images img {
     margin-left: 0;
     width: 90%;
   }
-  .section-5{
+
+  .section-5 {
     flex-direction: column;
     margin-left: 20px;
-    
-   
+
+
   }
-  .div-icon h1{
+
+  .div-icon h1 {
     margin-left: 5px;
   }
-  .div-icon p{
+
+  .div-icon p {
     margin-left: 5px;
 
     /* padding: 50px; */
   }
-  .div-last-title{
+
+  .div-last-title {
     margin-left: 20px;
   }
-  .section-Newsletter{
+
+  .section-Newsletter {
     flex-direction: column;
     margin-left: 20px;
   }
-  
+
   .section-descount {
     height: 120px;
     width: 150px;
