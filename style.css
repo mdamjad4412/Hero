@@ -378,8 +378,24 @@ footer {
     margin-top: 20px;
     gap: 20px;
   }
-  .section-2{
+  .section-2,.section-about{
     flex-direction: column;
     margin-left: 20px;
   }
+  .section-about img{
+    height: 100%;
+    width: 90%;
+  
+  }
+  .div-about p{
+    margin-left: 20px;
+  }
+  .div-images{
+    margin-left: 20px;
+  }
+  .div-images img{
+    margin-left: 0;
+    width: 90%;
+  }
+  
 }
