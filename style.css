@@ -363,7 +363,7 @@ footer {
   }
   .banner{
     flex-direction:column ;
-    width: 80%;
+    width: 100%;
     margin-left:20px ;
     margin-right: auto;
   }
@@ -385,7 +385,7 @@ footer {
   }
   .section-about img{
     height: 100%;
-    width: 50%;
+    width: 100%;
   
   }
   .div-about p{
@@ -408,6 +408,15 @@ footer {
   .div-icon p{
     margin-left: 20px;
   }
-
+  .div-last-title{
+    margin-left: 20px;
+  }
+  .section-Newsletter{
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .section-descount{
+    padding: 0 12px;
+  }
   
 }
