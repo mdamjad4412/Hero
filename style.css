@@ -5,7 +5,7 @@ body {
 
 .nav-title {
   display: flex;
-
+  align-items: center;
   justify-content: space-between;
   padding-left: 120px;
 }
@@ -13,6 +13,7 @@ body {
 .nav-title ul {
   display: flex;
   padding: 40px;
+  align-items: center;
   gap: 40px;
   margin-right: 40px;
   list-style: none;
@@ -42,12 +43,15 @@ body {
 .banner {
   background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('./Images/Group\ 13\ \(1\)\ \(1\).png');
   border-radius: 16px;
-  height: 70vh;
+  height: 80vh;
+  /* width: 100%; */
+  /* width: 100%; */
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 90px;
-  margin-right: 70px;
+  margin-right: 80px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
@@ -185,16 +189,19 @@ img {
 
 .section-5 {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   margin-left: 80px;
   margin-right: 80px;
+  justify-content: center;
 }
 
 .div-icon {
   border-radius: 5px;
+  max-width: 500px;
   border: 1px solid rgba(251, 181, 99, 0.20);
   background: rgba(251, 181, 99, 0.05);
-  width: 50%;
+  width: 100%;
 
 }
 
@@ -222,6 +229,7 @@ img {
   border: 1px solid rgba(41, 206, 246, 0.20);
   background: rgba(41, 206, 246, 0.05);
   margin: 24px auto;
+  text-align: left;
   width: 50%;
 }
 
@@ -306,15 +314,15 @@ img {
   border-radius: 16px;
   background: #FF5400;
   color: white;
-  height: 40%;
-  width: 20%;
+  height: 180px;
+  width: 250px;
   transform: rotate(-20deg);
   padding: 2px 15px;
   /* margin-bottom: 150px; */
 }
 
 .section-descount h2 {
-  font-size: 32px;
+  font-size: 20px;
 
 }
 
@@ -355,7 +363,7 @@ footer {
 @media screen and (max-width:600px) {
   .nav-title,ul{
     flex-direction: column;
-    padding: 10px;
+    /* padding: 10px; */
     margin-right: auto;
   }
   .banner{
@@ -398,14 +406,16 @@ footer {
   .section-5{
     flex-direction: column;
     margin-left: 20px;
+    
    
   }
   .div-icon h1{
-    margin-left: 20px;
+    margin-left: 5px;
   }
   .div-icon p{
-    margin-left: 20px;
-    padding: 50px;
+    margin-left: 5px;
+
+    /* padding: 50px; */
   }
   .div-last-title{
     margin-left: 20px;
@@ -414,8 +424,10 @@ footer {
     flex-direction: column;
     margin-left: 20px;
   }
-  .section-descount{
-    padding: 0 12px;
-  }
   
+  .section-descount {
+    height: 120px;
+    width: 150px;
+  }
+
 }
