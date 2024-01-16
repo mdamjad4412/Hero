@@ -351,3 +351,35 @@ footer {
   margin-top: 60px;
   margin-bottom: 110px;
 }
+.hide{
+  display: none;
+}
+/* Responsive medie */
+@media screen and (max-width:600px) {
+  .nav-title,ul{
+    flex-direction: column;
+    padding: 10px;
+    margin-right: auto;
+  }
+  .banner{
+    flex-direction:column ;
+    width: 40vh;
+    margin-left:20px ;
+  }
+  .banner-heading h1{
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .banner-heading p{
+    margin-left: 20px;
+  }
+  .banner-related{
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .section-2{
+    flex-direction: column;
+    margin-left: 20px;
+  }
+}
