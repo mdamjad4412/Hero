@@ -40,7 +40,8 @@ body {
 
 /* banner styles */
 .banner {
-  background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+  background-image:
+    url('./Images/Group\ 13\ \(1\)\ \(1\).png');
   border-radius: 16px;
   height: 70vh;
   background-repeat: no-repeat;
@@ -50,7 +51,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(180deg, rgba(121, 121, 236, 0.8) 0%, rgba(92, 92, 245, 0) 100%); */
+  /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
 }
 
 .banner-heading h1 {
@@ -129,7 +130,8 @@ img {
   font-size: 16px;
 }
 
-.div-images img {
+.div-images img{
+  margin-left: 20px;
   gap: 24px;
 }
 
@@ -232,6 +234,7 @@ img {
   margin-left: 100px;
   margin-right: 80px;
   gap: 30px;
+  position: relative;
 }
 
 .div-imge {
@@ -281,6 +284,25 @@ img {
 
 }
 
+.section-descount {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  border-radius: 16px;
+  background: #FF5400;
+  color: white;
+  height: 40%;
+  width: 20%;
+  transform: rotate(-20deg);
+  padding: 2px 15px;
+  /* margin-bottom: 150px; */
+}
+
+.section-descount h2 {
+  font-size: 32px;
+
+}
+
 /* footer section */
 footer {
   height: 50vh;
@@ -311,5 +333,5 @@ footer {
   color: #131318;
   font-size: 16px;
   margin-top: 60px;
-  margin-bottom: 110px ;
+  margin-bottom: 110px;
 }
